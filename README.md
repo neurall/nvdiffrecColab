@@ -8,7 +8,7 @@ Something that was holding nerf textured mesh outputs back in the past.
 
 As for any questions regarding how to do this or that you will be best served in issues section of authors. I created this just jesterday and was able to run just run included demo dataset yet.
 
-As for how to create custom dataset for to reonstruct from your own images. My guess asking in issues section in authors github will be much faster and better answer. but for now i guess. following https://github.com/sxyu/svox2 how to do custom nerf dataset using colmap could work too. I will try this today and update repo with what I found.
+As for how to create custom dataset for to reonstruct from your own images. My guess asking in issues section in authors github will be much faster and better answer. but for now i guess. following https://github.com/sxyu/svox2 how to do custom nerf dataset using colmap could work too. I will try this today and update repo with what I found. Sadly this algo requires you to provide masks in alpha of images as mask (like it is done in synthetic nerf datasets) detection is not part of this algo pipeline yet
 
 ![image](https://user-images.githubusercontent.com/1938534/169155045-7a7961ae-fb0a-40b8-8d47-abb72fd0a367.png)
 just look at that texture purity ;D yay 
