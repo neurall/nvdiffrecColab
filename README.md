@@ -10,11 +10,12 @@ As for any questions regarding how to do this or that you will be best served in
 
 As for how to create custom dataset for to reonstruct from your own images. My guess asking in issues section in authors github will be much faster and better answer. but for now i guess. following https://github.com/sxyu/svox2 how to do custom nerf dataset using colmap could work too. I will try this today and update repo with what I found. 
 
+Sadly this algo requires you to provide masks in alpha of images (like it is done in synthetic nerf datasets)  as this mask detection is not part of this algo pipeline yet.
+
 Update:
+
 Important Info/script/guide? regarding how to produce required alpha masks for your images?
 https://github.com/NVlabs/nvdiffrec/issues/3
-
-Sadly this algo requires you to provide masks in alpha of images (like it is done in synthetic nerf datasets)  as this mask detection is not part of this algo pipeline yet.
 
 ![image](https://user-images.githubusercontent.com/1938534/169155045-7a7961ae-fb0a-40b8-8d47-abb72fd0a367.png)
 just look at that texture purity ;D yay 
